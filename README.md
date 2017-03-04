@@ -18,3 +18,11 @@ install MySQL all Step(Personal)
 
 打个比方：系统就像一辆公交车，按着既定的路线走，环境变量里面的路径就是那个路线或者说是各个站，到了站（找到第一个）就下车。
 http://www.jb51.net/article/83643.htm
+
+
+
+#uninstall MySQL 
+1.在控制面板程序功能里面卸载MySQL Server版本。
+2.删除安装目录下的所有mysql文件 比如：C:\Program Files\MySQL
+3.删除Program Files、Program Files(x86)、ProgramData三个文件夹下的mysql文件
+4.清除注册表mysql remove  http://www.jb51.net/article/52806.htm
